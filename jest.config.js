@@ -1,5 +1,5 @@
 module.exports = {
-  testMatch: ["**/*.test.js", "**/*.feature", "./__tests__/*.js"],
+  testMatch: ["**/*.test.js", "**/*.feature", "__tests__/*.js"],
   globalSetup: "./setup.js",
   globalTeardown: "./teardown.js",
   testEnvironment: "./puppeteer_environment.js",
